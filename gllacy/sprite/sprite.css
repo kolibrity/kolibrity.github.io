@@ -1,0 +1,114 @@
+.bg-wafer {
+	background: url("sprite.png") 0 0;
+	width: 734px;
+	height: 433px;
+}
+
+.icon-basket-active {
+	background: url("sprite.png") 0 -433px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-basket {
+	background: url("sprite.png") 0 -468px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-cow {
+	background: url("sprite.png") 0 -498px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-eco {
+	background: url("sprite.png") 0 -558px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-fb {
+	background: url("sprite.png") 0 -618px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-heart {
+	background: url("sprite.png") 0 -663px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-hit {
+	background: url("sprite.png") 0 -708px;
+	width: 75px;
+	height: 75px;
+}
+
+.icon-input-active {
+	background: url("sprite.png") 0 -783px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-input {
+	background: url("sprite.png") 0 -818px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-inst {
+	background: url("sprite.png") 0 -848px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-iscr {
+	background: url("sprite.png") 0 -893px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-search-active {
+	background: url("sprite.png") 0 -953px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-search {
+	background: url("sprite.png") 0 -988px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-term {
+	background: url("sprite.png") 0 -1023px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-tw {
+	background: url("sprite.png") 0 -1083px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-vk {
+	background: url("sprite.png") 0 -1128px;
+	width: 45px;
+	height: 45px;
+}
+
+.logo-gllacy {
+	background: url("sprite.png") 0 -1173px;
+	width: 154px;
+	height: 64px;
+}
+
+.logo-html-ac {
+	background: url("sprite.png") 0 -1237px;
+	width: 120px;
+	height: 50px;
+}
+
