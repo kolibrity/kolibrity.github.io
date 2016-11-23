@@ -1,0 +1,204 @@
+.form-line {
+	background: url("sprite.png") 0 0;
+	width: 10px;
+	height: 272px;
+}
+
+.form-price {
+	background: url("sprite.png") 0 -272px;
+	width: 220px;
+	height: 127px;
+}
+
+.icon-basket {
+	background: url("sprite.png") 0 -399px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-bookmark {
+	background: url("sprite.png") 0 -429px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-check-off {
+	background: url("sprite.png") 0 -459px;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-on {
+	background: url("sprite.png") 0 -482px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-deliv {
+	background: url("sprite.png") 0 -517px;
+	width: 130px;
+	height: 123px;
+}
+
+.icon-disc {
+	background: url("sprite.png") 0 -640px;
+	width: 130px;
+	height: 123px;
+}
+
+.icon-down-dir {
+	background: url("sprite.png") 0 -763px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-down {
+	background: url("sprite.png") 0 -793px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-f-r {
+	background: url("sprite.png") 0 -823px;
+	width: 42px;
+	height: 42px;
+}
+
+.icon-f {
+	background: url("sprite.png") 0 -865px;
+	width: 42px;
+	height: 42px;
+}
+
+.icon-home {
+	background: url("sprite.png") 0 -907px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-i-r {
+	background: url("sprite.png") 0 -942px;
+	width: 42px;
+	height: 42px;
+}
+
+.icon-i {
+	background: url("sprite.png") 0 -984px;
+	width: 42px;
+	height: 42px;
+}
+
+.icon-instr {
+	background: url("sprite.png") 0 -1026px;
+	width: 130px;
+	height: 123px;
+}
+
+.icon-left {
+	background: url("sprite.png") 0 -1149px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-login {
+	background: url("sprite.png") 0 -1209px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-logout {
+	background: url("sprite.png") 0 -1239px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-m {
+	background: url("sprite.png") 0 -1269px;
+	width: 130px;
+	height: 123px;
+}
+
+.icon-new {
+	background: url("sprite.png") 0 -1392px;
+	width: 60px;
+	height: 59px;
+}
+
+.icon-phone {
+	background: url("sprite.png") 0 -1451px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-right {
+	background: url("sprite.png") 0 -1486px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon-search-r {
+	background: url("sprite.png") 0 -1546px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-search {
+	background: url("sprite.png") 0 -1576px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-tech {
+	background: url("sprite.png") 0 -1606px;
+	width: 130px;
+	height: 123px;
+}
+
+.icon-up-dir {
+	background: url("sprite.png") 0 -1729px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-up {
+	background: url("sprite.png") 0 -1764px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-user {
+	background: url("sprite.png") 0 -1794px;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-v-r {
+	background: url("sprite.png") 0 -1824px;
+	width: 41px;
+	height: 42px;
+}
+
+.icon-v {
+	background: url("sprite.png") 0 -1866px;
+	width: 41px;
+	height: 42px;
+}
+
+.tk-credit {
+	background: url("sprite.png") 0 -1908px;
+	width: 465px;
+	height: 285px;
+}
+
+.tk-deliv {
+	background: url("sprite.png") 0 -2193px;
+	width: 468px;
+	height: 261px;
+}
+
+.tk-guarant {
+	background: url("sprite.png") 0 -2454px;
+	width: 389px;
+	height: 283px;
+}
+
