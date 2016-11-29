@@ -11,8 +11,7 @@ var overlay = document.querySelector(".modal-overlay");
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: {lat: 59.9387942, lng: 30.3225036},
-		zoom: 13,
-		key=my-map-API
+		zoom: 13
 	});
 
 // Создаем маркер на карте
