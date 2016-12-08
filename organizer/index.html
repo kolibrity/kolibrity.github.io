@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Organizer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="path/to/your-font/css/styles.min.css">
+</head>
+<body>
+	<div class="container">
+		<section class="inner-content-left">
+	  <header class="main-header">
+	    <div class="user">
+	    	<img class="user__img" src="img/userPhoto.png" width="101" height="101" alt="Photo Trevor Reyes">
+	    	<p class="user__name">Trevor Reyes</p>
+	    </div>
+	      <nav class="sidebar">
+						<div class="sidebar__title">
+							<span class="sidebar__field">Projects</span>
+							<span class="sidebar__new-project">
+								<i data-icons8="&#xf109;"><a href="#"></a></i>
+							</span>
+						</div>
+						<div class="sidebar__item sidebar__item--active">
+							<span class="sidebar__field">Private</span>
+							<span class="sidebar__value">8</span>
+						</div>
+						<div class="sidebar__item">
+							<span class="sidebar__field">Decode</span>
+							<span class="sidebar__value">25</span>
+						</div> 
+						<div class="sidebar__item">
+							<span class="sidebar__field">Family</span>
+							<span class="sidebar__value">3</span>
+						</div> 
+						<div class="sidebar__item">
+							<span class="sidebar__field">Cookle</span>
+							<span class="sidebar__value">13</span>
+						</div>    
+	      </nav>
+			</header>
+			<div class="user-out">
+	      	<a href="#">Log out</a>
+	    </div> 
+		</section>
+	<section class="inner-content-right">
+	<main class="main-page">
+		<header class="search">
+			<form class="search-field" action="/search" method="post">
+				<input id="search" class="search" type="search" name="search" placeholder="Search">
+				<div class="more">
+					<ul class="sub-menu">
+						<li class="sub-menu__item"><a href="#1">Edit</a></li>
+						<li class="sub-menu__item"><a href="#2">Remove</a></li>
+					</ul>
+				</div>
+			</form>
+		</header>
+		<section class="task-content">
+			<div class="task">
+				<div class="task__day">Today</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Create a company</a></p>
+				</div>
+			</div>
+			<div class="task">
+				<div class="task__day">Tomorrow</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Call in barber shop</a></p>
+				</div>
+			</div>
+			<div class="task">
+				<div class="task__day">Friday 
+					<time datetime="09.06.2016">09.06.2016</time>
+				</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Earn a lot of money</a></p>
+					<p class="task__name task__name--second">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Go to the shop</a></p>
+				</div>
+			</div>
+			<div class="task">
+				<div class="task__day">Saturday 
+					<time datetime="10.06.2016">10.06.2016</time>
+				</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Buy gifts</a></p>
+				</div>
+			</div>
+			<div class="task">
+				<div class="task__day">Sunday
+					<time datetime="11.06.2016">11.06.2016</time>
+				</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Brush teeth</a></p>
+				</div>
+			</div>
+			<div class="task">
+				<div class="task__day">Monday
+					<time datetime="12.06.2016">12.06.2016</time>
+					</div>
+				<div class="task__item">
+					<p class="task__name">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Buy a plane tickets</a></p>
+					<p class="task__name task__name--second">
+						<a class="task__close-btn" href="#"></a>
+					<a class="task__description-btn">Fly away to the Thailand</a></p>
+				</div>
+			</div>
+		</section>
+			<section class="inner-content-no-task">
+			<img src="img/todo-list.png" alt="">
+			<p class="inner-content-no-task__inscription">Have a good day!</p>
+		</section> 
+		<div class="modal-content__new-project">
+		  <button class="modal-content-close" type="button" title="Закрыть">ESC</button>
+		  <h2 class="modal-content-title">Create new project</h2>
+		  <form class="project-form" action="" method="post">
+		  	<input class="new-project" type="text" name="name-project" placeholder="Project name">
+		  	<button class="btn-modal-create btn-modal-create__new-project" type="submit"></button>
+		  </form>
+	 	</div>
+		<div class="modal-content__create-task">
+		  <button class="modal-content-close" type="button" title="Закрыть">ESC</button>
+		  <h2 class="modal-content-title">Create new task</h2>
+		  <form class="task-form" action="" method="post">
+		  	<input class="create-task create-task__name" type="text" name="name-task" placeholder="Task name">
+		  	<input class="create-task create-task__description" type="text" name="description-task" placeholder="Description">
+		  	<button class="btn-modal-create btn-modal-create__create-task" type="submit"></button>
+		  </form>
+		</div>
+		<div class="modal-content  modal-content__open-task">
+		  <button class="modal-content-close" type="button" title="Закрыть">ESC</button>
+		  <h2 class="modal-content-title">Call in barber shop</h2>
+		  <div class="task-config  task-config__edit">
+		  	<i class="icons8-edit"><a href="#"></a></i>
+		  </div>
+		  <div class="task-config  task-config__delete">
+		  	<i class="icons8-delete"><a href="#"></a></i>
+		  </div>
+		  <p class="open-task__functions">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+	</main>
+	<div class="new-task">
+		<a class="new-task__btn" href="#"></a>
+	</div>
+</section>
+<div class="modal-overlay"></div>
+</body>
+</html>
