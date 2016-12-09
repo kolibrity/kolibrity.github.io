@@ -311,7 +311,7 @@ input[type="search"] {
   display: block;
   position: absolute;
   content: "";
-  width: 1000px;
+  width: 50vh;
   height: 1px;
   top: 0px;
   left: 122px;
