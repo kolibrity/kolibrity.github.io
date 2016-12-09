@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en" ng-app>
 <head>
 	<meta charset="UTF-8">
 	<title>Organizer</title>
@@ -49,7 +49,7 @@
 	<main class="main-page">
 		<header class="search">
 			<form class="search-field" action="/search" method="post">
-				<input id="search" class="search" type="search" name="search" placeholder="Search">
+				<input id="search" class="search" type="search" name="search" placeholder="">
 				<div class="more">
 					<ul class="sub-menu">
 						<li class="sub-menu__item"><a href="#1">Edit</a></li>
@@ -122,7 +122,7 @@
 				</div>
 			</div>
 		</section>
-			<section class="inner-content-no-task">
+		<section class="inner-content-no-task">
 			<img src="img/todo-list.png" alt="">
 			<p class="inner-content-no-task__inscription">Have a good day!</p>
 		</section> 
@@ -159,6 +159,7 @@
 		<a class="new-task__btn" href="#"></a>
 	</div>
 </section>
+</div>
 <div class="modal-overlay"></div>
 </body>
 </html>

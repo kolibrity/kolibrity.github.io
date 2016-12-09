@@ -65,11 +65,8 @@ body {
 }
 
 .user__img {
-  display: block;
-  position: absolute;
-
-  top: 40px;
-  left: 12%;    
+  margin-top: 42px;
+  margin-left: 4%;    
 
   border: solid 8px #292c33;
   border-radius: 50%;
@@ -78,13 +75,14 @@ body {
 
 .user__name {
   display: inline-block;
+  vertical-align: top;
 
-  margin-left: 32.5%;
+  margin-left: 6%;
   margin-top: 85px;
 }
 
 .sidebar {
-  margin-top: 10%;
+  margin-top: 6.5%;
   width: 100%;
 }
 
@@ -97,6 +95,11 @@ body {
   padding: 26px 5.5%;
 
   cursor: pointer;
+}
+
+.sidebar__item:hover {
+  background-color: #35373e;
+  border-radius: 8px;
 }
 
 .sidebar__title {
@@ -115,6 +118,14 @@ body {
   right: 25px;
 
   cursor: pointer;
+}
+
+.sidebar__new-project:hover {
+  transform: scale(1.1);
+}
+
+.sidebar__new-project:active {
+  transform: scale(0.9);
 }
 
 .sidebar__item--active {
@@ -146,6 +157,7 @@ input[type="search"] {
   line-height: 28px;
 
   color: #212121;
+  background: #f7f7f7;
 }
 
 .search-field {
@@ -165,6 +177,10 @@ input[type="search"] {
   cursor: pointer;
 }
 
+.search-field:hover::before {
+  opacity: 0.5;
+}
+
 .more {
   position: absolute;
   display: block;
@@ -178,6 +194,10 @@ input[type="search"] {
   cursor: pointer;
 }
 
+.more:hover {
+  opacity: 0.5;
+}
+
 .sub-menu {
   display: inline-block; 
   position: absolute;
@@ -185,6 +205,11 @@ input[type="search"] {
   top: 80px;
   right: 0px;   
   list-style: none;
+}
+
+.sub-menu__item:hover {
+  background-color: #e9e5e5;
+  border-radius: 8px;
 }
 
 .sub-menu__item {
@@ -234,6 +259,7 @@ input[type="search"] {
 .task__item {
   margin: 0;
   box-shadow:0px 10px 30px rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
   border-radius: 15px;
 }
 
@@ -244,6 +270,14 @@ input[type="search"] {
   margin: 0;
 }
 
+.task__name:hover {
+  color: #4e4e6c;
+}
+
+.task__name:active {
+  color: #9090c4;
+}
+
 .task__close-btn {
   position: absolute;
   width: 28px;
@@ -252,6 +286,14 @@ input[type="search"] {
   left: 65px;
   border: 6px solid #bdbdbd ;
   border-radius:50px;
+}
+
+.task__close-btn:hover {
+  transform: scale(1.1);
+}
+
+.task__close-btn:active {
+  transform: scale(0.9);
 }
 
 .task__name::before {
@@ -327,7 +369,7 @@ input[type="search"] {
 
   background: #f7f7f7;
 
-  z-index: 5;
+  z-index: 15;
 }
 
 .inner-content-no-task__inscription {  
@@ -573,6 +615,8 @@ input[name="description-task"]::-webkit-input-placeholder {
 
   color: #dbdbdb;
   font-size: 36px;
+
+  cursor: pointer;
 }
 
 .task-config__edit {
