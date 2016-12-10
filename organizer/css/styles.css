@@ -3,8 +3,8 @@ body {
   min-width: 1424px;
   background: #f7f7f7;
   color: #212121;
-  font-size: 30px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: 600;
   font-family: "SFUIText-Semibold", "Arial", sans-serif;
 }
@@ -42,9 +42,10 @@ body {
 .inner-content-left {
   position: relative;
   min-height: 900px;
-  height: 100vh;
-  width: 26vw;
+  // height: 100vh;
+  // width: 25vw;
   min-width: 343px;
+  max-width: 686px;
   flex-grow: 100;
 
   background-color: #292c33;
@@ -53,37 +54,36 @@ body {
 .inner-content-right {
   position: relative;
   min-height: 900px;
-  height: 100vh;
-  width: 74vw;
+  // height: 100vh;
+  // width: 75vw;
   min-width: 1082px;
+  max-width: 2824px;
 }
 
 .main-header {
-  padding: 0px auto;
-  margin: 0px auto;
-  padding: 0 8.5%;
+  padding: 0 30px;
   color: #ffffff;
 }
 
 .user__img {
-  margin-top: 42px;
-  margin-left: 4%;    
+  margin-top: 20px;
+  margin-left: 12px;    
 
-  border: solid 8px #292c33;
+  border: solid 4px #292c33;
   border-radius: 50%;
-  box-shadow: 0 0 0 2px #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
 }
 
 .user__name {
   display: inline-block;
   vertical-align: top;
 
-  margin-left: 6%;
-  margin-top: 85px;
+  margin-left: 15px;
+  margin-top: 40px;
 }
 
 .sidebar {
-  margin-top: 6.5%;
+  margin-top: 15px;
   width: 100%;
 }
 
@@ -93,30 +93,30 @@ body {
 }
 
 .sidebar__item {
-  padding: 26px 5.5%;
+  padding: 10px 15px;
 
   cursor: pointer;
 }
 
-.sidebar__item:hover {
+.sidebar__item:hover:not(.sidebar__item--active) {
   background-color: #35373e;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .sidebar__title {
   position: relative;
-  padding: 35px 5.5%;
+  padding: 15px 15px;
 
-  font-size: 24px;
+  font-size: 12px;
   color: #b3bbcb;
 }
 
 .sidebar__new-project {
   position: absolute;
-  font-size: 35px;
+  font-size: 20px;
 
-  top: 32px;
-  right: 25px;
+  top: 17px;
+  right: 10px;
 
   cursor: pointer;
 }
@@ -131,15 +131,15 @@ body {
 
 .sidebar__item--active {
   background-color: #6b6b99;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .user-out {
   display: block;
   position: absolute;
 
-  bottom: 3.5vh;
-  left: 13.5%; 
+  bottom: 24px;
+  left: 45px; 
 }
 
 .user-out a {
@@ -148,14 +148,14 @@ body {
 }
 
 input[type="search"] {
-  padding: 32px 110px;
+  padding: 14px 50px;
   width: 100%;
   border: none;
   outline: none;
   vertical-align: middle;
 
-  font-size: 30px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 21px;
 
   color: #212121;
   background: #f7f7f7;
@@ -169,12 +169,12 @@ input[type="search"] {
 .search-field::before {
   position: absolute;
   display: block;
-  top: 28px;
-  left: 40px;
+  top: 14px;
+  left: 20px;
   content: "";
-  width: 45px;
-  height: 45px;
-  background: url(../img/Search.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  background: url(../img/Search50%.png) no-repeat;
   cursor: pointer;
 }
 
@@ -185,13 +185,13 @@ input[type="search"] {
 .more {
   position: absolute;
   display: block;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   content: "";
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 30px;
 
-  background: url(../img/More.png) no-repeat center;
+  background: url(../img/More50%.png) no-repeat center;
   cursor: pointer;
 }
 
@@ -203,7 +203,7 @@ input[type="search"] {
   display: inline-block; 
   position: absolute;
 
-  top: 80px;
+  top: 20px;
   right: 0px;   
   list-style: none;
 }
@@ -220,7 +220,7 @@ input[type="search"] {
 
 .sub-menu a {
   display: block;
-  padding: 15px 10px 15px 30px;
+  padding: 8px 5px 8px 20px;
   color: #6b6b99;
   border-left: 1px solid #e5e5e5;
   text-decoration: none;
@@ -235,39 +235,40 @@ input[type="search"] {
   content: "";
   display: block;
   position: absolute;
-  width: 100px;
-  height: 20px;
-  top: 95px;
+  width: 50px;
+  height: 30px;
+  top: 20px;
   right: 0px;
 }
 
 .task {
   display: block;
-  margin: 0px 23%;
-  width: 62%;
-  max-width: 1242px;
+  margin: 0px 230px;
+  min-width: 621px;
 }
 
-.task__day {  
-  padding: 40px 18px 16px;
+.task__day {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 8px;
   color: #b3bbcb;
 } 
 
 .task__day time {
-  font-size: 24px;
+  font-size: 12px;
 }
 
 .task__item {
   margin: 0;
-  box-shadow:0px 10px 30px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .task__name {  
   position: relative;
-  padding: 45px;
-  padding-left: 205px;
+  padding: 19px;
+  padding-left: 103px;
   margin: 0;
 }
 
@@ -281,12 +282,12 @@ input[type="search"] {
 
 .task__close-btn {
   position: absolute;
-  width: 28px;
-  height: 28px;
-  top: 38px;
-  left: 65px;
-  border: 6px solid #bdbdbd ;
-  border-radius:50px;
+  width: 14px;
+  height: 14px;
+  top: 19px;
+  left: 33px;
+  border: 3px solid #bdbdbd ;
+  border-radius: 25px;
 }
 
 .task__close-btn:hover {
@@ -302,21 +303,21 @@ input[type="search"] {
   position: absolute;
   content: "";
   width: 1px;
-  height: 80px;
-  top: 20px;
-  left: 170px;
-  background-color: #bdbdbd;
+  height: 40px;
+  top: 10px;
+  left: 85px;
+  background-color: #eaeaea;
 }
 
 .task__name--second::after {
   display: block;
   position: absolute;
   content: "";
-  width: 75%;
+  width: 1000px;
   height: 1px;
   top: 0px;
-  left: 5.6%;
-  background-color: #bdbdbd;
+  left: 61px;
+  background-color: #eaeaea;
 }
 
 .task__description-btn {
@@ -327,11 +328,11 @@ input[type="search"] {
   display: block;
   position: absolute;
   content: "";
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  bottom: 4vh;
-  right: 3%;
+  bottom: 30px;
+  right: 30px;
   background-color: #6b6b99;
   cursor: pointer;
   z-index: 10;
@@ -341,11 +342,11 @@ input[type="search"] {
 .new-task::after {
   content: "";
   position: absolute;
-  top: 30px;
-  left: 45px;
+  top: 16px;
+  left: 24px;
 
-  width: 6px;
-  height: 36px;
+  width: 3px;
+  height: 18px;
   background-color: #ffffff;
   border-radius: 1px;
 }
