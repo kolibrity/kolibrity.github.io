@@ -42,8 +42,8 @@ body {
 .inner-content-left {
   position: relative;
   min-height: 900px;
-  // height: 100vh;
-  // width: 25vw;
+
+
   max-width: 343px;
   // max-width: 686px;
   flex-grow: 100;
@@ -54,9 +54,8 @@ body {
 .inner-content-right {
   position: relative;
   min-height: 900px;
-  // height: 100vh;
-  // width: 75vw;
-  max-width: 1082px;
+
+  width: 1082px;
   // max-width: 2824px;
 }
 
@@ -149,7 +148,7 @@ body {
 
 input[type="search"] {
   padding: 14px 50px;
-  width: 100%;
+  width: 970px;
   border: none;
   outline: none;
   vertical-align: middle;
@@ -166,37 +165,28 @@ input[type="search"] {
   border-bottom: 1px solid #bdbdbd;
 }
 
-.search-field::before {
+.icons8-search {
   position: absolute;
   display: block;
   top: 14px;
   left: 20px;
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url(../img/Search50%.png) no-repeat;
+  font-size: 24px;
+  color: #b3bbcb;
   cursor: pointer;
 }
 
-.search-field:hover::before {
-  opacity: 0.5;
+.icons8-search:hover {
+  color: #c8d0e0;
 }
 
 .more {
   position: absolute;
   display: block;
-  top: 10px;
-  right: 10px;
-  content: "";
-  width: 40px;
-  height: 30px;
-
-  background: url(../img/More50%.png) no-repeat center;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: #b3bbcb;
   cursor: pointer;
-}
-
-.more:hover {
-  opacity: 0.5;
 }
 
 .sub-menu {
@@ -236,8 +226,8 @@ input[type="search"] {
   display: block;
   position: absolute;
   width: 50px;
-  height: 30px;
-  top: 20px;
+  height: 40px;
+  top: 5px;
   right: 0px;
 }
 
@@ -362,12 +352,12 @@ input[type="search"] {
 
   flex-flow: column;
   align-items: center;
-  max-height: 1138px;
+
   height: 100%;
   width: 100%;
 
-  padding-top: 562px;
-  top: 100px;
+  padding-top: 280px;
+  // top: 100px;
 
   background: #f7f7f7;
 
@@ -375,8 +365,8 @@ input[type="search"] {
 }
 
 .inner-content-no-task__inscription {  
-  margin-top: 122px;
-  font-size: 48px;
+  margin-top: 62px;
+  font-size: 24px;
   font-family: "SFUIText-Medium", "Arrial", sans-serif;
   color: #b1b1c8;
 }
@@ -388,9 +378,9 @@ input[type="search"] {
 
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 1800px;
-  height: 100vh;
-  width: 30.5vw;
+  min-height: 900px;
+  height: 100%;
+  width: 500px;
   right: 0;
   top: 0;
   z-index: 20;
@@ -400,15 +390,15 @@ input[type="search"] {
 
 .modal-content-close {
   position: absolute;
-  top: 38px;
-  left: 24px;
+  top: 19px;
+  left: 12px;
 
-  padding-top: 50px;
+  padding-top: 25px;
 
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 
-  font-size: 18px;
+  font-size: 9px;
   color: #ffffff;
 
   border: 0;
@@ -421,11 +411,11 @@ input[type="search"] {
 .modal-content-close::after {
   content: "";
   position: absolute;
-  top: 25px;
+  top: 12px;
   left: 3px;
 
-  width: 45px;
-  height: 5px;
+  width: 23px;
+  height: 2px;
   background-color: #ffffff;
 }
 
@@ -438,26 +428,26 @@ input[type="search"] {
 }
 
 .modal-content-title {
-  margin-top: 62px;
-  margin-left: 40%;
+  margin-top: 30px;
+  margin-left: 168px;
 
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "SFUIText-Medium";
   color: #ffffff;
 }
 
 input[name="name-project"] {
-  margin-top: 30px;
-  margin-left: 158px;
-  padding: 12px 10px;
-  width: 69%;
+  margin-top: 10px;
+  margin-left: 80px;
+  padding: 6px 5px;
+  width: 340px;
 
-  font-size: 30px;
+  font-size: 15px;
   font-family: "SFUIText-Regular";
   color: #ffffff;
 
-  box-shadow: 0px 3px 0px 0px rgba(189, 189, 189, 1);
+  box-shadow: 0px 2px 0px 0px rgba(189, 189, 189, 1);
 
   border: none;
   outline: none;
@@ -468,7 +458,7 @@ input[name="name-project"] {
 }
 
 input[name="name-project"]::-webkit-input-placeholder {
-  font-size: 30px;
+  font-size: 15px;
   font-family: "SFUIText-Regular";
   color: #f6f6f6;
 }
@@ -477,11 +467,11 @@ input[name="name-project"]::-webkit-input-placeholder {
   display: block;
   position: absolute;
   content: "";
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  bottom: 4vh;
-  right: 6%;
+  bottom: 30px;
+  right: 30px;
   background-color: #6b6b99;
   cursor: pointer;
   border: none;
@@ -504,20 +494,20 @@ outline: none;
 
 .btn-modal-create::before {
   transform: rotate(45deg);
-  top: 25px;
-  left: 55px;
+  top: 16px;
+  left: 30px;
 
-  width: 3px;
-  height: 35px;
+  width: 2px;
+  height: 16px;
 }
 
 .btn-modal-create::after {
   transform: rotate(-45deg);
-  top: 38px;
-  left: 37px;
+  top: 22px;
+  left: 22px;
 
-  width: 3px;
-  height: 18px;
+  width: 2px;
+  height: 9px;
 }
 
 .modal-content__create-task {
@@ -527,23 +517,24 @@ outline: none;
 
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 1800px;
-  height: 100vh;
-  width: 30.5vw;
+  min-height: 900px;
+  height: 100%;
+  width: 500px;
   right: 0;
   top: 0;
+
   z-index: 20;
 
   background-color: #292c33;
 }
 
 .create-task {
-  margin-top: 30px;
-  margin-left: 158px;
-  padding: 12px 10px;
-  width: 69%;
+  margin-top: 15px;
+  margin-left: 80px;
+  padding: 6px 5px;
+  width: 340px;
 
-  font-size: 30px;
+  font-size: 15px;
   font-family: "SFUIText-Regular";
   color: #ffffff;
 
@@ -558,12 +549,12 @@ outline: none;
 }
 
 .create-task__description {
-  margin-top: 45px;
+  margin-top: 23px;
 }
 
 input[name="name-task"]::-webkit-input-placeholder,
 input[name="description-task"]::-webkit-input-placeholder {
-  font-size: 30px;
+  font-size: 15px;
   font-family: "SFUIText-Regular";
   color: #f6f6f6;
 }
@@ -575,25 +566,25 @@ input[name="description-task"]::-webkit-input-placeholder {
 
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 1800px;
-  height: 100vh;
-  width: 30.5vw;
+  min-height: 900px;
+  height: 100%;
+  width: 500px;
   right: 0;
   top: 0;
+
   z-index: 20;
 
   background-color: #292c33;
 }
 
 .open-task__functions {
-  margin-top: 38px;
-  margin-left: 160px;
+  margin-left: 80px;
 
-  width: 66.5%;
+  width: 340px;
   
   font-weight: 400;
-  font-size: 24px;
-  line-height: 44px;
+  font-size: 12px;
+  line-height: 22px;
   font-family: "SFUIText-Regular", "Arial", sans-serif;
   color: #dbdbdb;
 }
@@ -616,19 +607,19 @@ input[name="description-task"]::-webkit-input-placeholder {
   position: absolute;
 
   color: #dbdbdb;
-  font-size: 36px;
+  font-size: 18px;
 
   cursor: pointer;
 }
 
 .task-config__edit {
-  top: 55px;
-  right: 12%;
+  top: 27px;
+  right: 65px;
 }
 
 .task-config__delete {
-  top: 55px;
-  right: 6%;
+  top: 27px;
+  right: 30px;
 }
 
 
