@@ -1,5 +1,6 @@
 html,
 body {
+  min-width: 1424px;
   background: #f7f7f7;
   color: #212121;
   font-size: 30px;
@@ -40,10 +41,10 @@ body {
 
 .inner-content-left {
   position: relative;
-  min-height: 1800px;
+  min-height: 900px;
   height: 100vh;
   width: 26vw;
-  max-width: 685px;
+  min-width: 343px;
   flex-grow: 100;
 
   background-color: #292c33;
@@ -51,10 +52,10 @@ body {
 
 .inner-content-right {
   position: relative;
-  min-height: 1800px;
+  min-height: 900px;
   height: 100vh;
   width: 74vw;
-  max-width: 2163px;
+  min-width: 1082px;
 }
 
 .main-header {
