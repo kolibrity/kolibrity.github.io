@@ -380,7 +380,7 @@ input[type="search"] {
 }
 
 .modal-content__new-project {
-/*   display: none; */
+  display: none;
 }
 
 .modal-content-close {
@@ -453,7 +453,7 @@ input[name="project"] {
 }
 
 .modal-content__create-task {
-  display: none;
+/*   display: none; */
 }
 
 input[name="name-project"]::-webkit-input-placeholder {
