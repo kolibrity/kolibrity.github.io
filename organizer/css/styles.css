@@ -385,41 +385,17 @@ input[type="search"] {
 
 .modal-content-close {
   position: absolute;
-  top: 19px;
-  left: 12px;
+  display: block;
+  top: 25px;
+  left: 16px;
 
-  padding-top: 25px;
-
-  width: 25px;
-  height: 25px;
-
-  font-size: 9px;
-  color: #ffffff;
+  width: 17px;
+  height: 28px;
 
   border: 0;
   outline: 0;
   cursor: pointer;
-  background-color: #292c33;
-}
-
-.modal-content-close::before,
-.modal-content-close::after {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 3px;
-
-  width: 23px;
-  height: 2px;
-  background-color: #ffffff;
-}
-
-.modal-content-close::before {
-  transform: rotate(45deg);
-}
-
-.modal-content-close::after {
-  transform: rotate(-45deg);
+  background: url(../img/Close17x28.png) center no-repeat;
 }
 
 .modal-content-title {
