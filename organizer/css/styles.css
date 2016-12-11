@@ -453,7 +453,7 @@ input[name="project"] {
 }
 
 .modal-content__create-task {
-/*   display: none; */
+  display: none;
 }
 
 input[name="name-project"]::-webkit-input-placeholder {
@@ -522,7 +522,7 @@ input[name="description-task"]::-webkit-input-placeholder {
 }
 
 .modal-content__open-task {
-  display: none;
+/*   display: none; */
 }
 
 .open-task__functions {
