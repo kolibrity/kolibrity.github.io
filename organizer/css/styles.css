@@ -522,7 +522,7 @@ input[name="description-task"]::-webkit-input-placeholder {
 }
 
 .modal-content__open-task {
-/*   display: none; */
+  display: none;
 }
 
 .open-task__functions {
