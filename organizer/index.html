@@ -13,11 +13,11 @@
 		<section class="inner-content-left">
 	  <header class="main-header">
 	    <div class="user">
-	    	<img class="user__img" src="img/userPhoto.png" width="50" height="50" alt="Photo Trevor Reyes">
+	    	<img class="user__img" src="img/userPhoto.png" width="60" height="60" alt="Photo Trevor Reyes">
 	    	<p class="user__name">Trevor Reyes</p>
 	    </div>
 	      <nav class="sidebar">
-						<div class="sidebar__title">
+						<div class="sidebar__item sidebar__item--title">
 							<span class="sidebar__field">Projects</span>
 							<span class="sidebar__new-project">
 								<a class="create-project" href="#"><i data-icons8="&#xf109;"></i></a>
@@ -41,125 +41,93 @@
 						</div>    
 	      </nav>
 			</header>
-			<div class="user-out">
-	      	<a href="#">Log out</a>
-	    </div> 
 		</section>
-	<section class="inner-content-right">
-	<main class="main-page">
-		<header class="search">
-			<form class="search-field" action="/search" method="post">
-				<input id="search" class="search" type="search" name="search" placeholder="">
-				<i class="icons8-search"></i>
-			</form>
-			<div class="more icons8-more">
-				<ul class="sub-menu">
-					<li class="sub-menu__item"><a href="#1">Edit</a></li>
-					<li class="sub-menu__item"><a href="#2">Remove</a></li>
-				</ul>
-			</div>
-		</header>
-		 <section class="task-content">
-			<div class="task">
-				<div class="task__day">Today</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Create a company</a></p>
+		<section class="inner-content-right">
+		<main class="main-page">
+			<header class="search">
+				<form class="search-field" action="/search" method="post">
+					<input id="search" class="search" type="search" name="search" placeholder="">
+					<i class="icons8-search"></i>
+				</form>
+				<div class="more icons8-more">
+					<ul class="sub-menu">
+						<li class="sub-menu__item"><a href="#1">Edit</a></li>
+						<li class="sub-menu__item"><a href="#2">Remove</a></li>
+					</ul>
 				</div>
-			</div>
-			<div class="task">
-				<div class="task__day">Tomorrow</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Call in barber shop</a></p>
-				</div>
-			</div>
-			<div class="task">
-				<div class="task__day">Friday 
-					<time datetime="09.06.2016">09.06.2016</time>
-				</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Earn a lot of money</a></p>
-					<p class="task__name task__name--second">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Go to the shop</a></p>
-				</div>
-			</div>
-			<div class="task">
-				<div class="task__day">Saturday 
-					<time datetime="10.06.2016">10.06.2016</time>
-				</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Buy gifts</a></p>
-				</div>
-			</div>
-			<div class="task">
-				<div class="task__day">Sunday
-					<time datetime="11.06.2016">11.06.2016</time>
-				</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Brush teeth</a></p>
-				</div>
-			</div>
-			<div class="task">
-				<div class="task__day">Monday
-					<time datetime="12.06.2016">12.06.2016</time>
+			</header>
+			 <section class="task-content">
+				<div class="task">
+					<div class="task__day">Today</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Create a company</a></p>
 					</div>
-				<div class="task__item">
-					<p class="task__name">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Buy a plane tickets</a></p>
-					<p class="task__name task__name--second">
-						<a class="task-close" href="#"></a>
-					<a class="task-open">Fly away to the Thailand</a></p>
 				</div>
-			</div>
-		</section>
-		<section class="inner-content-no-task">
-			<img src="img/todo-list.png" width="84" height="84" alt="">
-			<p class="inner-content-no-task__inscription">Have a good day!</p>	
-		</section> 
-		<div class="modal-content__new-project">
-		  <button class="modal-content-close modal-content-close__project" type="button" title="Закрыть">ESC</button>
-		  <h2 class="modal-content-title">Create new project</h2>
-		  <form class="project-form" action="" method="post">
-		  	<input class="new-project" type="text" name="project" placeholder="Project name">
-		  	<button class="btn-modal-create btn-modal-create__new-project" type="submit"></button>
-		  </form>
-	 	</div>
-		<div class="modal-content__create-task">
-		  <button class="modal-content-close modal-content-close__new-task" type="button" title="Закрыть">ESC</button>
-		  <h2 class="modal-content-title">Create new task</h2>
-		  <form class="task-form" action="" method="post">
-		  	<input class="create-task create-task__name" type="text" name="task" placeholder="Task name">
-		  	<input class="create-task create-task__description" type="text" name="description" placeholder="Description">
-		  	<button class="btn-modal-create btn-modal-create__create-task" type="submit"></button>
-		  </form>
-		</div>
-		<div class="modal-content__open-task">
-		  <button class="modal-content-close modal-content-close__task-open" type="button" title="Закрыть">ESC</button>
-		  <h2 class="modal-content-title">Call in barber shop</h2>
-		  <div class="task-config  task-config__edit">
-		  	<i class="icons8-edit"><a href="#"></a></i>
-		  </div>
-		  <div class="task-config  task-config__delete">
-		  	<i class="icons8-delete"><a href="#"></a></i>
-		  </div>
-		  <p class="open-task__functions">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
-	</main>
-		<a class="new-task" href="#"></a>
-</section>
-</div>
-<div class="modal-overlay"></div>
-<script src="js/script.js"></script>
+				<div class="task">
+					<div class="task__day">Tomorrow</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Call in barber shop</a></p>
+					</div>
+				</div>
+				<div class="task">
+					<div class="task__day">Friday 
+						<time datetime="09.06.2016">09.06.2016</time>
+					</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Earn a lot of money</a></p>
+						<p class="task__name task__name--second">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Go to the shop</a></p>
+					</div>
+				</div>
+				<div class="task">
+					<div class="task__day">Saturday 
+						<time datetime="10.06.2016">10.06.2016</time>
+					</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Buy gifts</a></p>
+					</div>
+				</div>
+				<div class="task">
+					<div class="task__day">Sunday
+						<time datetime="11.06.2016">11.06.2016</time>
+					</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Brush teeth</a></p>
+					</div>
+				</div>
+				<div class="task">
+					<div class="task__day">Monday
+						<time datetime="12.06.2016">12.06.2016</time>
+						</div>
+					<div class="task__item">
+						<p class="task__name">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Buy a plane tickets</a></p>
+						<p class="task__name task__name--second">
+							<a class="task-close" href="#"></a>
+						<a class="task-open">Fly away to the Thailand</a></p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</section>
+	<div class="new-task">
+		<a href="#"></a>
+	</div>
+	<div class="user-out">
+		<a href="#">Log out</a>
+	</div>
+</div> 
 </body>
 </html>
