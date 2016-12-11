@@ -380,7 +380,7 @@ input[type="search"] {
 }
 
 .modal-content__new-project {
-  display: none;
+/*   display: none; */
 }
 
 .modal-content-close {
