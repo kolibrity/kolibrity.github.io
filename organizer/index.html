@@ -120,14 +120,48 @@
 					</div>
 				</div>
 			</section>
+			<section class="no-task">
+				<img class="no-task__img" src="img/todo-list.png" width="168" height="168" alt="">
+				<p class="no-task__inscription">Have a good day!</p>	
+			</section> 	
+			<div class="modal-content modal-content__new-project">
+			  <button class="modal-content-close modal-content-close__project" type="button" title="Закрыть">ESC</button>
+			  <h2 class="modal-content-title">Create new project</h2>
+			  <form class="project-form" action="" method="post">
+			  	<input class="new-project" type="text" name="project" placeholder="Project name">
+			  	<button class="btn-modal-create btn-modal-create__new-project" type="submit"></button>
+			  </form>
+		 	</div>
+			<div class="modal-content modal-content__create-task">
+			  <button class="modal-content-close modal-content-close__new-task" type="button" title="Закрыть">ESC</button>
+			  <h2 class="modal-content-title">Create new task</h2>
+			  <form class="task-form" action="" method="post">
+			  	<input class="create-task create-task__name" type="text" name="task" placeholder="Task name">
+			  	<input class="create-task create-task__description" type="text" name="description" placeholder="Description">
+			  	<button class="btn-modal-create btn-modal-create__create-task" type="submit"></button>
+			  </form>
+			</div>
+			<div class="modal-content modal-content__open-task">
+			  <button class="modal-content-close modal-content-close__task-open" type="button" title="Закрыть">ESC</button>
+			  <h2 class="modal-content-title">Call in barber shop</h2>
+			  <div class="task-config  task-config__edit">
+			  	<i class="icons8-edit"><a href="#"></a></i>
+			  </div>
+			  <div class="task-config  task-config__delete">
+			  	<i class="icons8-delete"><a href="#"></a></i>
+			  </div>
+			  <p class="open-task__functions">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>	
 		</main>
 	</section>
 	<div class="new-task">
-		<a href="#"></a>
+		<a href="#"><img src="img/Plus.png" width="50" height="50" alt=""></a>
 	</div>
 	<div class="user-out">
 		<a href="#">Log out</a>
 	</div>
 </div> 
+<div class="modal-overlay"></div>
+<script src="js/script.js"></script>
 </body>
 </html>
