@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <image id="phone.svg" class="cls-1" width="25" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAM1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjBUbJAAAAEHRSTlMAGjMpHQYNEyYtIAowEAMWKzK9/AAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADOSURBVCjPbZBZEsQgCES11bghuf9tB1wSUyMflvigaTFmCws4H7aHayUxZQBlpVUy/1QFS6A4AEkZ2qvAHuhI+1dTGLpxVHYA9zhoHVFYBNytFFEocvF6TnIte6SPTAiL1GVAHDXVvY3bHFy3iDZk8YIkkpgutTKzuq16SMlLQtJmr2mCDoP2T+R1R0J8MqZo020OEZRQPaHe5PhA+qQzamN1siq2JfKfHqhx/3a5/hBorspuoyaaQbug/6CvjfyC/HXIdrHDt1tRc2X4/gHivAYJQpZDYwAAAABJRU5ErkJggg=="/>
+</svg>
