@@ -79,13 +79,11 @@ img {
 	margin: 0 auto;
 	padding: 0 30px;
 	width: 260px;
-	background: rgba(150, 150, 5, 0.2);
 }
 
 .features__title {
 	padding: 28px 0;
 	margin: 0;
-	background: rgba(150, 10, 5, 0.2);
 }
 
 .features__items {
@@ -93,7 +91,6 @@ img {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	background: rgba(10, 100, 5, 0.2);
 }
 
 .features__items--right,
@@ -103,18 +100,9 @@ img {
 	list-style: none;
 }
 
-.features__items--left {
-	background: rgba(10, 100, 50, 0.2);
-}
-
-.features__items--right {
-	background: rgba(210, 100, 50, 0.2);
-}
-
 .features__item {
 	position: relative;
 	width: 260px;
-	background: rgba(150, 150, 5, 0.2);
 }
 
 .features__item p {
@@ -132,7 +120,6 @@ img {
 	height: 40px;
 	top: 5px;
 	left: 0;
-	background: rgba(150, 10, 5, 0.2);
 }
 
 .goods {
@@ -164,7 +151,7 @@ img {
 	justify-content: center;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-top: 125px;
+	padding-top: 120px;
 }
 
 .goods__item {
@@ -386,9 +373,75 @@ img {
 }
 
 .reviews__item {
+	padding: 0;
+	margin: 0;
+	background: rgba(15, 150, 16, 0.3);
+}
+
+.reviews__item p {
+	padding: 0;
+	margin: 0;
 	font-style: "OpenSans";
+	font-weight: normal;
 	font-size: 14px;
-	line-height: 30;
+	line-height: 30px;
+	color: #444444;
+}
+
+.reviews__auhor-name {
+	font-weight: bold;
+	line-height: 30px;
+	color: #000000;
+}
+
+.reviews__item:nth-child(n+3) {
+	display: none;
+}
+
+.reviews__toggles {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.reviews__toggle {
+	display: block;
+	position: relative;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-shadow: none;
+	border: 1px solid #eaeaea;
+	background: none;
+	font-size: 0;
+	outline: none;
+}
+
+.reviews__toggle--prev {
+	width: 128px;
+}
+
+.reviews__toggle--next {
+	width: 129px;
+	border-left: none;
+}
+
+.reviews__toggle--prev::before,
+.reviews__toggle--next::before {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 26px;
+	top: 12px;
+	left: 37px;
+	background: url("../../img/huge-arrow-left.png") no-repeat;
+}
+
+.reviews__toggle--next::before {
+	transform: rotate(180deg);
 }
 
 .top-goods {
@@ -398,6 +451,8 @@ img {
 .top-goods__container {
 	width: 320px;
 	margin: 0 auto;
+	width: 260px;
+	padding: 0 30px;
 	position: relative;
 }
 
@@ -406,26 +461,24 @@ img {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-bottom: 70px;
 	font-style: "OpenSans";
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 30px;
 	color: #444444;
-	background: rgba(15, 106, 198, 0.3);
 }
 
 .top-goods__title {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 9%;
+	padding: 10px 0;
 	margin: 0;
+	margin-top: 15px;
+	min-width: 280px;
+	font-style: "Verdana";
 	font-size: 24px;
 	line-height: 30px;
 }
 
 .top-goods__subtitle {
-	padding-left: 9%;
 	display: block;
 	height: 20px;
 	color: #63d1bb;
@@ -436,8 +489,10 @@ img {
 
 .top-goods__descr {
 	margin: 0;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .top-goods__options {
@@ -454,13 +509,14 @@ img {
 }
 
 .top-goods__value {
-	padding-left: 30px;
+	padding-left: 15px;
 }
 
 .top-goods__left-img {
 	width: 260px;
 	height: 315px;
 	margin: 0 auto;
+	margin-top: 25px;
 	background-image: url("../../img/triple-set-mobile@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -477,8 +533,7 @@ img {
 }
 
 .top-goods__btn {
-	margin-right: 9%;
-	margin-left: 9%;
+	background: orange;
 }
 
 @media (min-width: 768px) {
@@ -494,7 +549,6 @@ img {
 
 .features__wrapper {
 	padding: 0;
-	background: rgba(150, 150, 5, 0.2);
 }
 
 .features__item {
@@ -712,6 +766,25 @@ img {
 
 .reviews__wrapper {
 	width: 668px;
+}
+
+.reviews__wrapper {
+	margin-top: 68px;
+	background: url("../../img/review@1x.jpg") no-repeat left;
+}
+
+.reviews__title {
+	padding-top: 67px;
+	padding-bottom: 55px;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.reviews__item {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 30px;
 }
 
 .top-goods__container {
@@ -968,7 +1041,6 @@ img {
 	padding-left: 175px;
 	margin-right: 60px;
 	width: 290px;
-	background: #351566;
 }
 
 .top-goods__right {
