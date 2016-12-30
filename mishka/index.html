@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 </head>
 <body>
 	<header class="page-header">
@@ -99,21 +98,21 @@
 							<p>Экологически чистые материалы</p>
 						</li>
 						<li class="features__item features__item--price">
-							<img class="features__icon" src="img/icon-feature-2.svg" alt="">
+							<img class="features__icon" src="img/icon-feature-3.svg" alt="">
 							<p>Скандинавский стиль по российской цене</p>
 						</li>
 						<li class="features__item features__item--like">
-							<img class="features__icon" src="img/icon-feature-3.svg" alt="">
+							<img class="features__icon" src="img/icon-feature-5.svg" alt="">
 							<p>Увеличивает лайки на фотографиях</p>
 						</li>					
 					</ul>
 					<ul class="features__items--right">
 						<li class="features__item features__item--handmade">
-							<img class="features__icon" src="img/icon-feature-4.svg" alt="">
+							<img class="features__icon" src="img/icon-feature-2.svg" alt="">
 							<p>Связано вручную с любовью и умилением</p>
 						</li>
 						<li class="features__item features__item--homely">
-							<img class="features__icon" src="img/icon-feature-5.svg" alt="">
+							<img class="features__icon" src="img/icon-feature-4.svg" alt="">
 							<p>Поддержка отечественного производителя</p>
 						</li>
 						<li class="features__item features__item--gift">
@@ -153,14 +152,15 @@
 
 		<section class="contacts">
 			<div class="contacts__wrapper">
-				<svg class="contacts__icon"></svg>
 				<h2 class="contacts__title">Контакты</h2>
 				<ul class="contacts__items">
-					<li class="contacts__item  contacts__item--email">info@mimimishkashop.ru</li>
-					<li class="contacts__item  contacts__item--address">г. Санкт-Петербург,<br> ул. Большая Конюшенная, <br>д. 19/8, офис 101</li>
+					<li class="contacts__item  contacts__item--email">e-mail:</li>
+					<li class="contacts__item  contacts__item--email-name">info@mimimishkashop.ru</li>
+					<li class="contacts__item  contacts__item--address">адрес:</li>
+					<li class="contacts__item  contacts__item--address-name">г. Санкт-Петербург,<br> ул. Большая Конюшенная, <br>д. 19/8, офис 101</li>
 				</ul>
 				<div class="contacts__map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" style="border:0" allowfullscreen></iframe>
+          <div id="map"></div>
         </div>
 				<a class="contacts__btn  btn" href="">Напишите нам</a>
 			</div>
@@ -187,4 +187,5 @@
 
 </body>
 <script src="js/modernizr-custom.js"></script>
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 </html>
