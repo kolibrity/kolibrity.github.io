@@ -77,7 +77,8 @@ img {
 .contacts__wrapper {
 	width: 320px;
 	margin: 0 auto;
-	background: rgba(9, 169, 109, 0.5);
+	padding-bottom: 45px;
+	background: rgba(205, 86, 108, 0.6);
 }
 
 .contacts__title {
@@ -86,7 +87,6 @@ img {
 	margin-top: 20px;
 	font-size: 24px;
 	line-height: 30px;
-	background: rgba(9, 5, 209, 0.5);
 }
 
 .contacts__items {
@@ -118,13 +118,11 @@ img {
 .contacts__item--address {
 	width: 28%;
 	text-align: center;
-	background: orange;
 }
 
 .contacts__item--email-name,
 .contacts__item--address-name {
 	width: 72%;
-	background: yellow;
 }
 
 .contacts__map {
@@ -419,6 +417,29 @@ img {
 	display: none;
 }
 
+.page-footer__wrapper {
+	width: 320px;
+	margin: 0 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	background: rgba(205, 255, 108, 0.6);
+}
+
+.page-footer-logo {
+	display: none;
+}
+
+.page-footer__social {
+	background: rgba(25, 255, 108, 0.6);
+	height: 80px;
+	width: 100%;
+	text-align: center;
+}
+
 .page-header {
 	width: 320px;
 	margin: 0 auto;
@@ -436,7 +457,6 @@ img {
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 260px;
-	background: rgba(150, 205, 16, 0.2);
 }
 
 .reviews__title {
@@ -653,7 +673,7 @@ img {
 	height: 85px;
 	right: 0;
 	top: 30px;
-	background: rgba(205, 66, 198, 0.6) url("../../img/flag.png") no-repeat;
+	background: url("../../img/flag.png") no-repeat;
 }
 
 .contacts__title {
@@ -691,16 +711,6 @@ img {
 	width: 150px;
 	margin: 0 auto;
 	margin-top: 55px;
-}
-
-.contacts__title {
-	padding-left: 225px;
-}
-
-.contacts__map {
-	position: absolute;
-	top: 0;
-	right: 0;
 }
 
 .features__wrapper {
@@ -929,6 +939,10 @@ img {
 	padding: 15px 0;
 }
 
+.page-footer__wrapper {
+	width: 668px;
+}
+
 .page-header {
 	width: 668px;
 }
@@ -944,7 +958,7 @@ img {
 	padding: 0 50px;
 	padding-bottom: 80px;
 	margin-top: 50px;
-	background: rgba(150, 205, 16, 0.2) url("../../img/review@1x.jpg") no-repeat left;
+	background: url("../../img/review@1x.jpg") no-repeat left;
 }
 
 .reviews::before {
@@ -1102,6 +1116,78 @@ img {
 	width: 1050px;
 }
 
+.contacts__wrapper {
+	margin-top: 70px;
+	min-height: 525px;
+}
+
+.contacts__wrapper::before {
+	left: 60px;
+	top: 60px;
+}
+
+.contacts__title {
+	margin-left: 175px;
+	padding-top: 70px;
+	width: 350px;
+	font-size: 50px;
+	line-height: 57px;
+}
+
+.contacts__items {
+	margin: 0;
+	padding: 0;
+	margin-left: 175px;
+	width: 350px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.contacts__item--email,
+.contacts__item--email-name {
+	padding-top: 0;
+	margin-top: 7px;
+}
+
+.contacts__item--address,
+.contacts__item--address-name {
+	margin-top: 10px;
+}
+
+.contacts__item--email,
+.contacts__item--address {
+	width: 28%;
+}
+
+.contacts__item--email-name,
+.contacts__item--address-name {
+	width: 72%;
+}
+
+.contacts__btn {
+	margin-top: 70px;
+	margin-left: 175px;
+}
+
+.contacts__map {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 460px;
+	height: 525px;
+	top: 0;
+	right: 0;
+}
+
+#map {
+	width: 460px;
+	height: 525px;
+}
+
 .features__wrapper {
 	width: 1050px;
 }
@@ -1243,6 +1329,10 @@ img {
 	-ms-flex-order: 7;
 	order: 7;
 	width: 64%;
+}
+
+.page-footer__wrapper {
+	width: 1050px;
 }
 
 .page-header {
