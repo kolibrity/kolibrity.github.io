@@ -190,7 +190,7 @@ img {
 }
 
 .goods {
-	background: #f9f9f9 url("../../img/hero-mobile@1x.jpg");
+	background: #f9f9f9 url("../img/hero-mobile@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -539,7 +539,7 @@ img {
 	height: 26px;
 	top: 12px;
 	left: 37px;
-	background: url("../../img/huge-arrow-left.png") no-repeat;
+	background: url("../img/huge-arrow-left.png") no-repeat;
 }
 
 .reviews__toggle--next::before {
@@ -556,7 +556,7 @@ img {
 	bottom: 0px;
 	width: 100%;
 	height: 8px;
-	background: url("../../img/zigzag-line-mobile.png") repeat-x;
+	background: url("../img/zigzag-line-mobile.png") repeat-x;
 }
 
 .top-goods {
@@ -632,7 +632,7 @@ img {
 	height: 315px;
 	margin: 0 auto;
 	margin-top: 25px;
-	background-image: url("../../img/triple-set-mobile@1x.jpg");
+	background-image: url("../img/triple-set-mobile@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -653,7 +653,7 @@ img {
 	bottom: -42px;
 	width: 100%;
 	height: 8px;
-	background: url("../../img/zigzag-line-mobile.png") repeat-x;
+	background: url("../img/zigzag-line-mobile.png") repeat-x;
 }
 
 @media (min-width: 768px) {
@@ -673,7 +673,7 @@ img {
 	height: 85px;
 	right: 0;
 	top: 30px;
-	background: url("../../img/flag.png") no-repeat;
+	background: url("../img/flag.png") no-repeat;
 }
 
 .contacts__title {
@@ -756,7 +756,7 @@ img {
 	margin-top: -60px;
 	min-height: 690px;
 	z-index: -1;
-	background: #f9f9f9 url("../../img/hero-desktop@1x.jpg");
+	background: #f9f9f9 url("../img/hero-desktop@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -770,7 +770,7 @@ img {
 	width: 100%;
 	height: 19px;
 	z-index: 2;
-	background: url("../../img/zigzag-fill-desktop.png") repeat;
+	background: url("../img/zigzag-fill-desktop.png") repeat;
 	background-position: 0 0;
 }
 
@@ -958,13 +958,13 @@ img {
 	padding: 0 50px;
 	padding-bottom: 80px;
 	margin-top: 50px;
-	background: url("../../img/review@1x.jpg") no-repeat left;
+	background: url("../img/review@1x.jpg") no-repeat left;
 }
 
 .reviews::before {
 	bottom: 0px;
 	height: 22px;
-	background: url("../../img/zigzag-line-desktop.png") repeat-x;
+	background: url("../img/zigzag-line-desktop.png") repeat-x;
 }
 
 .reviews__title {
@@ -1019,7 +1019,7 @@ img {
 
 .top-goods::before {
 	height: 22px;
-	background: url("../../img/zigzag-line-desktop.png") repeat-x;
+	background: url("../img/zigzag-line-desktop.png") repeat-x;
 }
 
 .top-goods__title {
@@ -1058,7 +1058,7 @@ img {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-image: url("../../img/triple-set-tablet@1x.jpg");
+	background-image: url("../img/triple-set-tablet@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -1409,7 +1409,7 @@ img {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-image: url("../../img/triple-set-desktop@1x.jpg");
+	background-image: url("../img/triple-set-desktop@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
