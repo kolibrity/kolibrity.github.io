@@ -203,7 +203,7 @@ img {
 }
 
 .goods {
-	background: #f9f9f9 url("../../img/hero-mobile@1x.jpg");
+	background: #f9f9f9 url("../img/hero-mobile@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -581,7 +581,7 @@ img {
 	height: 26px;
 	top: 12px;
 	left: 37px;
-	background: url("../../img/huge-arrow-left.png") no-repeat;
+	background: url("../img/huge-arrow-left.png") no-repeat;
 }
 
 .reviews__toggle--next::before {
@@ -598,7 +598,7 @@ img {
 	bottom: 0px;
 	width: 100%;
 	height: 8px;
-	background: url("../../img/zigzag-line-mobile.png") repeat-x;
+	background: url("../img/zigzag-line-mobile.png") repeat-x;
 }
 
 .top-goods {
@@ -674,7 +674,7 @@ img {
 	height: 315px;
 	margin: 0 auto;
 	margin-top: 25px;
-	background-image: url("../../img/triple-set-mobile@1x.jpg");
+	background-image: url("../img/triple-set-mobile@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -695,7 +695,7 @@ img {
 	bottom: -42px;
 	width: 100%;
 	height: 8px;
-	background: url("../../img/zigzag-line-mobile.png") repeat-x;
+	background: url("../img/zigzag-line-mobile.png") repeat-x;
 }
 
 .title__name {
@@ -964,15 +964,15 @@ input[type="email"]::-webkit-input-placeholder,
 }
 
 .catalog__img--1 {
-	background: url("../../img/photo-1-mobile@1x.jpg");
+	background: url("../img/photo-1-mobile@1x.jpg");
 }
 
 .catalog__img--2 {
-	background: url("../../img/photo-2-mobile@1x.jpg");
+	background: url("../img/photo-2-mobile@1x.jpg");
 }
 
 .catalog__img--3 {
-	background: url("../../img/photo-3-mobile@1x.jpg");
+	background: url("../img/photo-3-mobile@1x.jpg");
 }
 
 .catalog__products {
@@ -1015,7 +1015,7 @@ input[type="email"]::-webkit-input-placeholder,
 	position: relative;
 	width: 260px;
 	height: 150px;
-	background: url("../../img/video-mobile@1x.jpg");
+	background: url("../img/video-mobile@1x.jpg");
 }
 
 .catalog__presentation-video::before {
@@ -1026,7 +1026,7 @@ input[type="email"]::-webkit-input-placeholder,
 	height: 80px;
 	top: 40px;
 	left: 80px;
-	background: url("../../img/icon-play.svg") no-repeat;
+	background: url("../img/icon-play.svg") no-repeat;
 	cursor: pointer;
 	opacity: 0.9;
 }
@@ -1076,7 +1076,7 @@ input[type="email"]::-webkit-input-placeholder,
 	height: 85px;
 	right: 0;
 	top: 30px;
-	background: url("../../img/flag.png") no-repeat;
+	background: url("../img/flag.png") no-repeat;
 }
 
 .contacts__title {
@@ -1159,7 +1159,7 @@ input[type="email"]::-webkit-input-placeholder,
 	margin-top: -60px;
 	min-height: 690px;
 	z-index: -1;
-	background: #f9f9f9 url("../../img/hero-desktop@1x.jpg");
+	background: #f9f9f9 url("../img/hero-desktop@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -1173,7 +1173,7 @@ input[type="email"]::-webkit-input-placeholder,
 	width: 100%;
 	height: 19px;
 	z-index: 2;
-	background: url("../../img/zigzag-fill-desktop.png") repeat;
+	background: url("../img/zigzag-fill-desktop.png") repeat;
 	background-position: 0 0;
 }
 
@@ -1394,13 +1394,13 @@ input[type="email"]::-webkit-input-placeholder,
 	padding: 0 50px;
 	padding-bottom: 80px;
 	margin-top: 50px;
-	background: url("../../img/review@1x.jpg") no-repeat left;
+	background: url("../img/review@1x.jpg") no-repeat left;
 }
 
 .reviews::before {
 	bottom: 0px;
 	height: 22px;
-	background: url("../../img/zigzag-line-desktop.png") repeat-x;
+	background: url("../img/zigzag-line-desktop.png") repeat-x;
 }
 
 .reviews__title {
@@ -1455,7 +1455,7 @@ input[type="email"]::-webkit-input-placeholder,
 
 .top-goods::before {
 	height: 22px;
-	background: url("../../img/zigzag-line-desktop.png") repeat-x;
+	background: url("../img/zigzag-line-desktop.png") repeat-x;
 }
 
 .top-goods__title {
@@ -1494,7 +1494,7 @@ input[type="email"]::-webkit-input-placeholder,
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-image: url("../../img/triple-set-tablet@1x.jpg");
+	background-image: url("../img/triple-set-tablet@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -1555,7 +1555,7 @@ input[type="email"]::-webkit-input-placeholder,
 	width: 100%;
 	height: 19px;
 	z-index: 2;
-	background: url("../../img/zigzag-fill-desktop.png") repeat;
+	background: url("../img/zigzag-fill-desktop.png") repeat;
 	background-position: 0 0;
 }
 
@@ -1800,15 +1800,15 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .catalog__img--1 {
-	background: url("../../img/photo-1-tablet@1x.jpg");
+	background: url("../img/photo-1-tablet@1x.jpg");
 }
 
 .catalog__img--2 {
-	background: url("../../img/photo-2-tablet@1x.jpg");
+	background: url("../img/photo-2-tablet@1x.jpg");
 }
 
 .catalog__img--3 {
-	background: url("../../img/photo-3-tablet@1x.jpg") no-repeat;
+	background: url("../img/photo-3-tablet@1x.jpg") no-repeat;
 }
 
 .catalog__products {
@@ -1875,7 +1875,7 @@ input[type="email"]::-webkit-input-placeholder {
 .catalog__presentation-video {
 	width: 668px;
 	height: 455px;
-	background: url("../../img/video-tablet@1x.jpg");
+	background: url("../img/video-tablet@1x.jpg");
 }
 
 .extra {
@@ -2232,7 +2232,7 @@ input[type="email"]::-webkit-input-placeholder {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-image: url("../../img/triple-set-desktop@1x.jpg");
+	background-image: url("../img/triple-set-desktop@1x.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -2328,15 +2328,15 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .catalog__img--1 {
-	background: url("../../img/photo-1-desktop@1x.jpg");
+	background: url("../img/photo-1-desktop@1x.jpg");
 }
 
 .catalog__img--2 {
-	background: url("../../img/photo-2-desktop@1x.jpg");
+	background: url("../img/photo-2-desktop@1x.jpg");
 }
 
 .catalog__img--3 {
-	background: url("../../img/photo-3-desktop@1x.jpg") no-repeat;
+	background: url("../img/photo-3-desktop@1x.jpg") no-repeat;
 }
 
 .catalog__products {
@@ -2410,7 +2410,7 @@ input[type="email"]::-webkit-input-placeholder {
 .catalog__presentation-video {
 	width: 682px;
 	height: 455px;
-	background: url("../../img/video-desktop@1x.jpg");
+	background: url("../img/video-desktop@1x.jpg");
 }
 
 .extra {
