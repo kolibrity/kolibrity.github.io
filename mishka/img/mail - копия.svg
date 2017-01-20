@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="22" viewBox="0 0 32 22">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <image id="mail.svg" class="cls-1" width="32" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAMAAACWh252AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3dmhyAAAAEXRSTlMAEC0zDTAgAykGFgojGhMdJn+EHSkAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqUlEQVQoz4VS7RbFEAwr0dXY8P5PO9zZ153pDw7JkaRKpDS6pRWRwWcZ0mBlOqUYmoD8TK8UkAmT9HCZKgF2fsdny5XgLL+qKLa+EowsWP/xFYvQj0DkyuEuv8DlrRHIsPZX3Gsu1yehGAonHng3fiUAseHxSHaTCLDViFiEp0R1TJ7Zt3VP9ogpCTEiySPmtVFrSkdLjkYNWz38rMF354EJnwMzHLnR0G7Qygc+lqCo6QAAAABJRU5ErkJggg=="/>
+</svg>
